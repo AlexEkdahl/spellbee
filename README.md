@@ -22,7 +22,7 @@ You can also initialize the database used by the program by running it with the 
 ```bash
 spellbee --init
 ```
-This will create the database and the necessary table for caching results.
+This will create the database and the necessary table for caching results in the folder `./config/spellbee`.
 
 ## Compilation
 To compile the program, you can use the Makefile provided in the repository. Just run:
@@ -35,9 +35,9 @@ This will create a binary file named sp in the bin folder. You can then run the 
 ```bash
 ./bin/sp apple
 ```
-## implementation
+## Implementation
 
-To see how spellbee is implemented in neovim, you can check out this file:
+To see how I integrated spellbee in neovim, you can check out this file:
 
 [spellbee.lua](https://github.com/AlexEkdahl/.dotfiles/blob/main/nvim/lua/spellbee.lua)
 
