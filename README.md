@@ -17,6 +17,13 @@ The program will output the correct article to use before the word, for example:
 The word 'apple' should be preceded by 'an'.
 If you don’t provide a word as an argument, the program will print an error message and exit.
 
+You can also initialize the database used by the program by running it with the `--init` flag:
+
+```bash
+spellbee --init
+```
+This will create the database and the necessary table for caching results.
+
 ## Compilation
 To compile the program, you can use the Makefile provided in the repository. Just run:
 
