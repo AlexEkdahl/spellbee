@@ -1,3 +1,3 @@
 build:
-	go build -ldflags="-s -w" -o ./bin/sp
+	go build -mod=readonly -ldflags="-s -w" -gcflags=all=-l -trimpath=true -o ./bin/sp
 
